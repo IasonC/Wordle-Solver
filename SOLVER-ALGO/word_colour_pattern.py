@@ -1,3 +1,8 @@
+# Author: Iason Chaimalas
+# Date: 2 June 2022
+
+
+
 import os
 from collections import Counter # to count val occurences in dict
 import json # for hash table read/write
