@@ -1,3 +1,8 @@
+# Author: Iason Chaimalas
+# Date: 2 June 2022
+
+
+
 from HashTableWordle import HashTableWordle # import class for hash table
 from word_colour_pattern import int_to_ternary, read_list
 from numpy import log2, random # log2 for entropy, random.randint for random nums
