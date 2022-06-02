@@ -1,3 +1,8 @@
+# Author: Iason Chaimalas
+# Date: 2 June 2022
+
+
+
 from HashTableWordle import HashTableWordle
 from tqdm import tqdm as ProgressBarLookup # to see the progress of the lookup creation
 import os
