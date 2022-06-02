@@ -1,3 +1,8 @@
+# Author: Iason Chaimalas
+# Date: 2 June 2022
+
+
+
 import json
 
 class HashTableWordle():
