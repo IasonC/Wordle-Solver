@@ -5,6 +5,7 @@
 
 **Stats: 98.7% win rate, Mean 3.88 guesses with Standard Deviation 0.98 guesses needed to win on average.**
 ![hist_guesser](https://user-images.githubusercontent.com/73920832/171768059-a8d8338b-89dd-4a25-a6a9-40a999fafb3c.png)
+
 This figure (Matplotlib) shows the number of guesses needed by my Wordle Solver to solve all possible unique Wordle games. There are 2315 possible unique games, since there are 2315 words that can be the Wordle solution word. Thus, my Solver played 2315 games, each with a different solution word, and recorded the number of guesses needed to win.
 
 The Solver needs 7 guesses for 30 games, which count as losses since a Wordle game must be "won" in at most 6 guesses. Thus, the win percentage is (2315-30)/2315 = 98.7%. Also, the mean number of guesses is 3.88, with SD = 0.98 guesses. If you want to verify these statistics, please see the *GuesserSimulation_v2.txt* file in SOLVER-ALGO folder - it is the file used to generate the above plot and contains the number of guesses for each Wordle game.
